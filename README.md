@@ -23,4 +23,5 @@ to compile on Linux:
 `gcc readascii.c -o readascii`
 ###
 to execute
-`./readascii asciifile.txt <rownum>'
+`./readascii asciifile.txt <rownum>`
+
