@@ -7,7 +7,7 @@ readstc2103.c
 ###
 this program read a fits file and prints out the content on the standard output
 to compile on Linux:
-`gcc readstc2103.c -o readstc2103.c -L$CFITSIO_HOME -lcfitsio`
+`gcc readstc2103.c -o readstc2103 -L$CFITSIO_HOME -lcfitsio`
 ###
 to execute
 ###
@@ -23,5 +23,6 @@ to compile on Linux:
 `gcc readascii.c -o readascii`
 ###
 to execute
+###
 `./readascii asciifile.txt <rownum>`
-
+###
