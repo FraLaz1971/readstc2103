@@ -26,6 +26,7 @@ int main(int argc, char **argv)
 **************************************************************************/
     int status=0;
     char *myfname=argv[1];
+    if (argc<2){printf("usage:%s <fitsfile>\n",argv[0]);return 1;}
     status = readheader(myfname);
     status = readtable(myfname); 
 
